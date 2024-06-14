@@ -1,0 +1,14 @@
+---
+inherit_mode:
+  merge:
+    - Exclude
+    - IgnoredMethods
+
+Layout/HeredocArgumentClosingParenthesis:
+  Enabled: true
+
+Layout/RedundantLineBreak:
+  Enabled: true
+
+Layout/SingleLineBlockChain:
+  Enabled: true
