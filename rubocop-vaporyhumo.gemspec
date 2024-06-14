@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name        = 'rubocop-vaporyhumo'
-  spec.version     = '0.2.0'
+  spec.version     = '0.3.0'
   spec.authors     = ['vaporyhumo']
   spec.email       = ['roanvilina@gmail.com']
   spec.license     = 'Unlicense'
