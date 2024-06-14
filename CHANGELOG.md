@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning][2].
 [2]: https://semver.org/spec/v2.0.0.html
 
 ## [Unreleased]
-## [0.1.0] - 2024-06-XX
+## [0.1.0] - 2024-06-13
 
 ### Added
 - Initial release with configuration for `Layout` department.
