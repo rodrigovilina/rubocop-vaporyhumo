@@ -4,6 +4,17 @@ inherit_mode:
     - Exclude
     - IgnoredMethods
 
+Bundler/GemVersion:
+  Enabled: true
+  EnforcedStyle: forbidden
+
+Gemspec/DependencyVersion:
+  Enabled: true
+  EnforcedStyle: required
+
+Gemspec/DevelopmentDependencies:
+  EnforcedStyle: gemspec
+
 Layout/HeredocArgumentClosingParenthesis:
   Enabled: true
 
