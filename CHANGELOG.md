@@ -9,10 +9,16 @@ and this project adheres to [Semantic Versioning][2].
 [2]: https://semver.org/spec/v2.0.0.html
 
 ## [Unreleased]
+## [0.3.0] - 2024-06-13
+### Added
+- `Lint` department configurations.
+
+
 ## [0.2.0] - 2024-06-13
 ### Added
 - `Bundler` department configurations.
 - `Gemspec` department configurations.
+
 
 ## [0.1.0] - 2024-06-13
 ### Added
