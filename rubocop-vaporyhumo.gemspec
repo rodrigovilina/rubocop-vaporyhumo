@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name        = 'rubocop-vaporyhumo'
-  spec.version     = '0.1.0'
+  spec.version     = '0.2.0'
   spec.authors     = ['vaporyhumo']
   spec.email       = ['roanvilina@gmail.com']
   spec.license     = 'Unlicense'
@@ -10,9 +10,7 @@ Gem::Specification.new do |spec|
   spec.summary     = 'Rubocop setup used by @vaporyhumo'
   spec.homepage    = 'https://github.com/vaporyhumo/rubocop-vaporyhumo'
 
-  spec.files       = [
-    'config.yml', 'CHANGELOG.md', 'LICENSE', 'README.md', 'SECURITY.md'
-  ]
+  spec.files       = ['config.yml', 'CHANGELOG.md', 'LICENSE', 'README.md', 'SECURITY.md']
   spec.executables = []
 
   spec.metadata['homepage_uri']  = spec.homepage
