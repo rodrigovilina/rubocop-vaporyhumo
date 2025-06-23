@@ -4,17 +4,43 @@ inherit_mode:
     - Exclude
     - IgnoredMethods
 
+# Bundler
+Bundler/GemComment:
+  Enabled: true
+  OnlyFor: ['version_specifiers', 'github']
+
 Bundler/GemVersion:
   Enabled: true
   EnforcedStyle: forbidden
+
+Bundler/OrderedGems:
+  Enabled: true
+  TreatCommentsAsGroupSeparators: false
+
+
+# Gemspec
+Gemspec/AttributeAssignment:
+  Enabled: true
 
 Gemspec/DependencyVersion:
   Enabled: true
   EnforcedStyle: required
 
+Gemspec/DeprecatedAttributeAssignment:
+  Enabled: true
+
 Gemspec/DevelopmentDependencies:
   EnforcedStyle: gemspec
 
+Gemspec/OrderedDependencies:
+  Enabled: true
+  TreatCommentsAsGroupSeparators: false
+
+Gemspec/RequireMFA:
+  Enabled: true
+
+
+# Layout
 Layout/HeredocArgumentClosingParenthesis:
   Enabled: true
 
@@ -24,8 +50,52 @@ Layout/RedundantLineBreak:
 Layout/SingleLineBlockChain:
   Enabled: true
 
+
+# Lint
 Lint/HeredocMethodCallPosition:
   Enabled: true
 
 Lint/NumberConversion:
+  Enabled: true
+
+
+# Metrics
+Metrics/AbcSize:
+  Max: 12
+
+Metrics/BlockLength:
+  Max: 5
+  CountAsOne: ['array', 'hash', 'heredoc', 'method_call']
+
+Metrics/BlockNesting:
+  Max: 2
+
+Metrics/ClassLength:
+  Max: 75
+  CountAsOne: ['array', 'hash', 'heredoc', 'method_call']
+
+Metrics/CollectionLiteralLength:
+  Enabled: true
+  LengthThreshold: 10
+
+Metrics/CyclomaticComplexity:
+  Max: 5
+
+Metrics/MethodLength:
+  Max: 5
+  CountAsOne: ['array', 'hash', 'heredoc', 'method_call']
+
+Metrics/ModuleLength:
+  Max: 75
+  CountAsOne: ['array', 'hash', 'heredoc', 'method_call']
+
+Metrics/ParameterLists:
+  Max: 3
+
+Metrics/PerceivedComplexity:
+  Max: 7
+
+
+# Security
+Security/CompoundHash:
   Enabled: true
