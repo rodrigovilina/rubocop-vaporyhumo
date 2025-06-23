@@ -90,7 +90,7 @@ Metrics/ModuleLength:
   CountAsOne: ['array', 'hash', 'heredoc', 'method_call']
 
 Metrics/ParameterLists:
-  Max: 3
+  Max: 4
 
 Metrics/PerceivedComplexity:
   Max: 7
