@@ -96,6 +96,24 @@ Metrics/PerceivedComplexity:
   Max: 7
 
 
+# Naming
+Naming/BlockForwarding:
+  Enabled: true
+
+Naming/InclusiveLanguage:
+  Enabled: true
+
+Naming/MemoizedInstanceVariableName:
+  EnforcedStyleForLeadingUnderscores: optional
+
+Naming/PredicateMethid:
+  Enabled: true
+
+Naming/PredicatePrefix:
+  Enabled: true
+  UseSorbetSigs: true
+
+
 # Security
 Security/CompoundHash:
   Enabled: true
