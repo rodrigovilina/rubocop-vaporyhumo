@@ -106,7 +106,7 @@ Naming/InclusiveLanguage:
 Naming/MemoizedInstanceVariableName:
   EnforcedStyleForLeadingUnderscores: optional
 
-Naming/PredicateMethid:
+Naming/PredicateMethod:
   Enabled: true
 
 Naming/PredicatePrefix:
@@ -117,3 +117,8 @@ Naming/PredicatePrefix:
 # Security
 Security/CompoundHash:
   Enabled: true
+
+
+# Style
+Style/ColonMethodCall:
+  Enabled: false
