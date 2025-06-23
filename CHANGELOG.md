@@ -9,6 +9,21 @@ and this project adheres to [Semantic Versioning][2].
 [2]: https://semver.org/spec/v2.0.0.html
 
 ## [Unreleased]
+
+
+## [0.5.0] - 2025-06-23
+### Added
+- `Naming/BlockForwarding` configuration
+- `Naming/InclusiveLanguage` configuration
+- `Naming/MemoizedInstanceVariableName` configuration
+- `Naming/PredicateMethid` configuration
+- `Naming/PredicatePrefix` configuration
+- `Style/ColonMethodCall` disabled
+
+### Changed
+- `Metrics/ParameterLists` configuration: max parameters increased from 3 to 4
+
+
 ## [0.4.0] - 2025-06-23
 ### Added
 - `Bundler/GemComment` configuration with version specifiers and GitHub enforcement
