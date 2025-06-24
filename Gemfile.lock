@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rubocop-vaporyhumo (0.6.0)
+    rubocop-vaporyhumo (0.7.0)
       rubocop (~> 1.77)
       rubocop-performance (~> 1.25)
       rubocop-rake (~> 0.7)
