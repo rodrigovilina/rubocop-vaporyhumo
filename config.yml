@@ -4,6 +4,9 @@ inherit_mode:
     - Exclude
     - IgnoredMethods
 
+plugins: 
+  - rubocop-rspec
+
 # Bundler
 Bundler/GemComment:
   Enabled: true
