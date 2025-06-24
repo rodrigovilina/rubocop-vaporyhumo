@@ -122,3 +122,6 @@ Security/CompoundHash:
 # Style
 Style/ColonMethodCall:
   Enabled: false
+
+Style/EmptyCaseCondition:
+  Enabled: false
