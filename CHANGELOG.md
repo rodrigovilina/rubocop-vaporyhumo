@@ -10,6 +10,9 @@ and this project adheres to [Semantic Versioning][2].
 
 ## [Unreleased]
 
+## [0.6.0] - 2025-06-24
+### Changed
+- Disable `Style/EmptyCaseCondition`
 
 ## [0.5.0] - 2025-06-23
 ### Added
