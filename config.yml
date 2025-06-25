@@ -53,6 +53,14 @@ Layout/RedundantLineBreak:
 Layout/SingleLineBlockChain:
   Enabled: true
 
+Layout/EndAlignment:
+  Enabled: true
+  EnforcedStyleAlignWith: variable
+
+Layout/ArrayAlignment:
+  Enabled: true
+  EnforcedStyle: with_fixed_indentation
+
 
 # Lint
 Lint/HeredocMethodCallPosition:
@@ -128,3 +136,19 @@ Style/ColonMethodCall:
 
 Style/EmptyCaseCondition:
   Enabled: false
+
+Style/TrailingCommaInArguments:
+  Enabled: true
+  EnforcedStyleForMultiline: consistent_comma
+
+Style/TrailingCommaInBlockArgs:
+  Enabled: true
+  EnforcedStyleForMultiline: consistent_comma
+
+Style/TrailingCommaInArrayLiteral:
+  Enabled: true
+  EnforcedStyleForMultiline: consistent_comma
+
+Style/TrailingCommaInHashLiteral:
+  Enabled: true
+  EnforcedStyleForMultiline: consistent_comma
